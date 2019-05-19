@@ -15,8 +15,36 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-        {/* <Bio /> */}
-        {/* <Link to="/blog/">Blog</Link> */}
+        <div
+         style={{
+           display: `flex`,
+           flexDirection: `column`,
+           justifyContent: `space-between`,
+           height: `90vh`
+         }}
+        >
+          <div 
+            style={{
+              background: `#736A76`,
+              height: `50%`,
+              alignSelf: `flex-start`,
+              width: `50%`
+            }}
+          >
+            <h1>Christina Ng</h1>
+            <h5>Web Developer building websites that power humanoid robots</h5>
+          </div>
+          <div
+            style={{
+              background: `#736A76`,
+              height: `40%`,
+              alignSelf: `flex-end`,
+              width: `50%`
+            }}
+          >
+            <h1>Cool IMage here</h1>
+          </div>
+        </div>
       </Layout>
     )
   }
