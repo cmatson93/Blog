@@ -2,6 +2,9 @@ import React from "react"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import "../styles/about.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithub, faTwitter, faReact, faCss3, faJsSquare, faBootstrap, faJenkins, faGitSquare, faHtml5, faNodeJs, faPython, faSass } from '@fortawesome/free-brands-svg-icons' 
+import { faCoffee, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 class About extends React.Component {
     render() {
@@ -25,10 +28,27 @@ class About extends React.Component {
                         </h4>
                     </div>
                     <div className="block">
-                        <h1>How can you contact me?</h1>
-                        {/* <div className="links"> */}
-                            <i className="fab fa-linkedin"></i>
-                        {/* </div> */}
+                        <h1>What are my skills?</h1>
+                        <div className="links">
+                            <FontAwesomeIcon icon={faReact}/>
+                            <FontAwesomeIcon icon={faCss3}/>
+                            <FontAwesomeIcon icon={faBootstrap}/>
+                            <FontAwesomeIcon icon={faGitSquare}/>
+                            <FontAwesomeIcon icon={faHtml5}/>
+                            <FontAwesomeIcon icon={faJenkins}/>
+                            <FontAwesomeIcon icon={faNodeJs}/>
+                            <FontAwesomeIcon icon={faPython}/>
+                            <FontAwesomeIcon icon={faSass}/>
+                        </div>
+                    </div>
+                    <div className="block">
+                        <h1>How to contact me?</h1>
+                        <div className="links">
+                            <FontAwesomeIcon icon={faLinkedin}/>
+                            <FontAwesomeIcon icon={faGithub}/>
+                            <FontAwesomeIcon icon={faTwitter}/>
+                            <FontAwesomeIcon icon={faEnvelope}/>
+                        </div>
                     </div>
                 </div>
             </Layout>
