@@ -1,0 +1,14 @@
+
+.home-heading {
+    /* background: var(--color-purple); */
+    color: var(--color-purple);
+    
+}
+
+.home-heading h5 {
+    font-size : 2rem;
+}
+
+.home-heading h1 {
+    font-size : 5.5rem;
+}

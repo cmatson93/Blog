@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import "../styles/home.css"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -15,36 +16,10 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-        <div
-         style={{
-           display: `flex`,
-           flexDirection: `column`,
-           justifyContent: `space-between`,
-           height: `90vh`
-         }}
-        >
-          <div 
-            style={{
-              background: `#736A76`,
-              height: `50%`,
-              alignSelf: `flex-start`,
-              width: `50%`
-            }}
-          >
+          <div className="home-heading">
             <h1>Christina Ng</h1>
-            <h5>Web Developer building websites that power humanoid robots</h5>
+            <h5>Frontend Engineer building websites that power humanoid robots</h5>
           </div>
-          <div
-            style={{
-              background: `#736A76`,
-              height: `40%`,
-              alignSelf: `flex-end`,
-              width: `50%`
-            }}
-          >
-            <h1>Cool IMage here</h1>
-          </div>
-        </div>
       </Layout>
     )
   }
