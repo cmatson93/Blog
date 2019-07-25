@@ -31,3 +31,23 @@
     width: 60%;
     color: var(--color-white)
 }
+
+.about-container .social-links {
+    margin-bottom: 1.75rem;
+    margin-top: 3.5rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    color: var(--color-white)
+}
+
+.social-links svg:hover {
+    color: var(--color-charcoal-black);
+    cursor: pointer;
+}
+
+.links p:hover {
+    color: var(--color-yellow-gold);
+    cursor: pointer;
+}

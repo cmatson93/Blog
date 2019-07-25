@@ -1,5 +1,6 @@
 import React from "react"
 import Nav from "./nav"
+import Background from "../svgs/background"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -15,8 +16,10 @@ class Layout extends React.Component {
           // maxWidth: rhythm(24),
           // padding: `${rhythm(.5)} ${rhythm(4 / 4)}`,
           padding: `1% 5%`,
+          height: `100vh`
         }}
       >
+        
         <header
           style={{
             width: `100%`,
@@ -26,7 +29,7 @@ class Layout extends React.Component {
         >
           <Nav location={location} />
         </header>
-        <main>{children}</main>
+        {children}
         {/* <footer>
           © Christina Ng{new Date().getFullYear()}
         </footer> */}

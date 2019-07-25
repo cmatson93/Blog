@@ -5,6 +5,9 @@ import "../styles/home.css"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Circle from "../svgs/circle";
+import Path from "../svgs/path"
+import Background from "../svgs/background";
 // import { rhythm } from "../utils/typography"
 
 class BlogIndex extends React.Component {

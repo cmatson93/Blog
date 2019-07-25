@@ -7,16 +7,18 @@ const Tab = (props) => {
     const { name, path } = props
     
     return (
+      <div className="link-container">
         <Link
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
-              color: `black`,
+              // color: `black`,
             }}
             to={path}
           >
             {name}
         </Link>
+      </div>
     )
 }
 

@@ -3,6 +3,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import "../styles/about.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Icon from '../components/icon'
 import { faLinkedin, faGithub, faTwitter, faReact, faCss3, faJsSquare, faBootstrap, faJenkins, faGitSquare, faHtml5, faNodeJs, faPython, faSass } from '@fortawesome/free-brands-svg-icons' 
 import { faCoffee, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
@@ -16,7 +17,7 @@ class About extends React.Component {
                         <h4>
                             My name is Christina Ng. I grew up in a small town outside Kansas City MO.
                             I'm passionate about using technology to build cool things to help make our world a better place. 
-
+                            
                         </h4>
                     </div>
                     <div className="block">
@@ -30,20 +31,73 @@ class About extends React.Component {
                     <div className="block">
                         <h1>What are my skills?</h1>
                         <div className="links">
-                            <FontAwesomeIcon icon={faReact}/>
-                            <FontAwesomeIcon icon={faCss3}/>
-                            <FontAwesomeIcon icon={faBootstrap}/>
-                            <FontAwesomeIcon icon={faGitSquare}/>
-                            <FontAwesomeIcon icon={faHtml5}/>
-                            <FontAwesomeIcon icon={faJenkins}/>
-                            <FontAwesomeIcon icon={faNodeJs}/>
-                            <FontAwesomeIcon icon={faPython}/>
-                            <FontAwesomeIcon icon={faSass}/>
+                            <Icon 
+                                icon={faReact} 
+                                name="react-icon"
+                                placement="bottom"
+                                text="React"
+                            />
+                            <Icon 
+                                icon={faCss3} 
+                                name="css-icon"
+                                placement="bottom"
+                                text="CSS"
+                            />
+                            <Icon 
+                                icon={faBootstrap} 
+                                name="bootstrap-icon"
+                                placement="bottom"
+                                text="Bootstrap"
+                            />
+                            <Icon 
+                                icon={faGitSquare} 
+                                name="git-icon"
+                                placement="bottom"
+                                text="Git"
+                            />
+                            <Icon 
+                                icon={faHtml5} 
+                                name="html-icon"
+                                placement="bottom"
+                                text="HTML5"
+                            />
+                            <Icon 
+                                icon={faJenkins} 
+                                name="jenkins-icon"
+                                placement="bottom"
+                                text="Jenkins"
+                            />
+                            <Icon 
+                                icon={faNodeJs} 
+                                name="node-icon"
+                                placement="bottom"
+                                text="NodeJs"
+                            />
+                            <Icon 
+                                icon={faPython} 
+                                name="python-icon"
+                                placement="bottom"
+                                text="Python"
+                            />
+                            <Icon 
+                                icon={faSass} 
+                                name="sass-icon"
+                                placement="bottom"
+                                text="SASS"
+                            />
+                        </div>
+                    </div>
+                    <div className="block">
+                        <h1>Whant to see my work?</h1>
+                        <div className="links">
+                            <p>ZoomAdmin</p>
+                            <p>MADE CMS</p>
+                            <p>Cool Game</p>
                         </div>
                     </div>
                     <div className="block">
                         <h1>How to contact me?</h1>
-                        <div className="links">
+                        <div className="social-links">
                             <FontAwesomeIcon icon={faLinkedin}/>
                             <FontAwesomeIcon icon={faGithub}/>
                             <FontAwesomeIcon icon={faTwitter}/>

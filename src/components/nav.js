@@ -7,7 +7,7 @@ const Nav = () => {
             style={{
                 display: `flex`,
                 justifyContent: `space-between`,
-                width: `20%`
+                width: `20%`,
             }}
         >
            <Tab name="Home" path={`/`} />
