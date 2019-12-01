@@ -1,15 +1,18 @@
 
 .home-heading {
     /* background: var(--color-purple); */
-    color: var(--color-purple);
-    
+    padding: 20px;
 }
 
 .home-heading h5 {
-    font-size : 2rem;
+    font-size : 1rem;
+    color: var(--color-purple);
+    margin-top: 1rem;
 }
 
 .home-heading h1 {
-    font-size : 5.5rem;
+    font-size : 2rem;
+    color: var(--color-purple);
+
 }
 

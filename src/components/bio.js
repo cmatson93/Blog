@@ -32,19 +32,20 @@ function Bio() {
                 marginBottom: 0,
                 minWidth: 50,
                 borderRadius: `100%`,
+                
               }}
               imgStyle={{
                 borderRadius: `50%`,
               }}
             />
-            <p>
+            {/* <p>
               Written by <strong>{author}</strong> who lives and works in The Bay Area 
               building useful things.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 You should follow her on Twitter
               </a>
-            </p>
+            </p> */}
           </div>
         )
       }}

@@ -1,17 +1,23 @@
 
 :root {
     --color-purple : #5A5475;
+    --color-purple-hover : #433f57;
     --color-black : #000000;
     --color-pink : #FFB8D1;
     --color-light-purple : #C5A3FF;
     --color-yellow : #FFF352;
+    --color-yellow-hover : #ffee05;
     --color-bright-purple: #AE81FF;
     --color-bright-pink : #F92672;
     --color-teal : #C2FFDF;
     --color-charcoal-black: #3E3D32;
     --color-yellow-gold : #E6C000;
     --color-white : #F8F8F2;
+    --color-white-hover : #efefe1;
 
     /* background: var(--color-purple); */
     background : #F8F8F2;
+    color: var(--color-purple);
+    box-sizing: border-box;
 }
+

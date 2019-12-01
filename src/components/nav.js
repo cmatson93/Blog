@@ -1,18 +1,29 @@
 import React from "react"
 import Tab from "./tab"
-
+import Bio from "./bio"
 const Nav = () => {
     return (
         <div 
             style={{
                 display: `flex`,
-                justifyContent: `space-between`,
-                width: `20%`,
+                justifyContent: `flex-end`,
+                width: `100%`,
+                height: `3rem`
             }}
         >
-           <Tab name="Home" path={`/`} />
-           <Tab name="About" path={`/about`} />
-           <Tab name="Blog" path={`/blog`} /> 
+            <div
+                style={{
+                    display: `flex`,
+                    justifyContent: `space-around`,
+                    width: `25%`
+                }}
+            >
+                <Tab name="Home" path={`/`} />
+                <Tab name="About" path={`/about`} />
+                <Tab name="Blog" path={`/blog`} /> 
+            <Bio />
+
+            </div>
         </div>
     )
 }

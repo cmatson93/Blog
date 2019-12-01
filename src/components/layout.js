@@ -15,8 +15,8 @@ class Layout extends React.Component {
           marginRight: `auto`,
           // maxWidth: rhythm(24),
           // padding: `${rhythm(.5)} ${rhythm(4 / 4)}`,
-          padding: `1% 5%`,
-          height: `100vh`
+          padding: `1% 10%`,
+          height: `100vh`,
         }}
       >
         
@@ -24,7 +24,7 @@ class Layout extends React.Component {
           style={{
             width: `100%`,
             display: `flex`,
-            justifyContent: `flex-end`
+            // height: 
           }}
         >
           <Nav location={location} />

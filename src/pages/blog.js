@@ -16,7 +16,8 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <FlexGrid>
+        {/* <FlexGrid> */}
+        <div className="about-container">
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
@@ -26,7 +27,8 @@ class BlogIndex extends React.Component {
               />            
             )
           })}
-        </FlexGrid>
+        </div>
+        {/* </FlexGrid> */}
       </Layout>
     )
   }

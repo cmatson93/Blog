@@ -12,12 +12,11 @@ const Tab = (props) => {
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
-              // color: `black`,
             }}
             to={path}
           >
             {name}
-        </Link>
+        </Link> 
       </div>
     )
 }

@@ -1,8 +1,14 @@
 import Typography from "typography"
-import fairyGatesTheme from "typography-theme-wordpress-2016"
-import { redirectTo } from "@reach/router";
+// import fairyGatesTheme from "typography-theme-wordpress-2016"
+import fairyGatesTheme from 'typography-theme-fairy-gates'
 
+fairyGatesTheme.overrideThemeStyles = ({ rhythm }, options) => ({
+  'a' : {
+    backgroundImage: 'none'
+  }
+})
 
+// const typography = new Typography(funstonTheme)
 
 // delete Wordpress2016.googleFonts
 
