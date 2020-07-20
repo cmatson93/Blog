@@ -1,0 +1,29 @@
+
+
+@keyframes animation-name-you-pick {
+    0% {
+     /* background: blue; */
+     transform: translateX(0);
+   }
+    50% {
+     /* background: purple; */
+     transform: translateX(50px);
+   }
+    100% {
+     /* background: red; */
+     transform: translateX(100px);
+   }
+ }
+ 
+
+.one-wheel {
+    fill : var(--color-purple);
+    animation: animation-name-you-pick 2s 2s infinite alternate ease-in-out forwards;
+}
+
+.test {
+  fill : red;
+}
+
+ 
+ 

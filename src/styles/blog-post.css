@@ -1,3 +1,5 @@
 .post-container {
     padding: 0 20%;
+    /* color: yellow; */
+    color: var(--color-purple);
 }

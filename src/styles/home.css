@@ -1,18 +1,39 @@
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    
+}
+
+@media (max-width: 770px) {
+    .home-content {
+        width: 100%;
+    }
+}
 
 .home-heading {
-    /* background: var(--color-purple); */
     padding: 20px;
 }
 
 .home-heading h5 {
-    font-size : 1rem;
+    font-size : 1.25rem;
     color: var(--color-purple);
-    margin-top: 1rem;
+    margin-top: 1.25rem;
 }
 
 .home-heading h1 {
-    font-size : 2rem;
+    font-size : 3rem;
     color: var(--color-purple);
+}
 
+.home-bio {
+    margin-top: 2rem;
+}
+
+.home-svg-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 

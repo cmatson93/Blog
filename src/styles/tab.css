@@ -3,6 +3,7 @@
     position: relative;
     margin: auto;
     text-align: center;
+    margin-right: 1rem;
 }
 
 .link-container::after {
@@ -21,7 +22,7 @@
 }
 
 a {
-    font-size: 20px; 
+    font-size: 1.15rem; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-shadow: none;
     text-decoration: none;

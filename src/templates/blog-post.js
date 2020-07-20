@@ -19,13 +19,16 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
         <div className="post-container">
-          <h1>{post.frontmatter.title}</h1>
+          <h1
+            style={{color: `#5A5475`}}
+          >{post.frontmatter.title}</h1>
           <p
             style={{
               ...scale(-1 / 5),
               display: `block`,
               marginBottom: rhythm(1),
-              marginTop: rhythm(-1),
+              color: `#5A5475`,
+              marginTop: rhythm(0.5),
             }}
           >
             {post.frontmatter.date}
@@ -36,7 +39,7 @@ class BlogPostTemplate extends React.Component {
               marginBottom: rhythm(1),
             }}
           />
-          <Bio />
+          {/* <Bio /> */}
         </div>
         <ul
           style={{
