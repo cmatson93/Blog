@@ -2,52 +2,26 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-.about-container .block {
-    background : var(--color-purple);
+.about-container .about-heading {
     display: flex;
-    justify-content: space-around;
-    padding: 0% 2%;
-    margin-top: 25px;
+    align-items: center;
+}
+
+.about-container .about-heading .about-heading-text {
+    width: 75%;
 }
 
 .about-container h1 {
-    color: var(--color-yellow);
-    width: 40%;
+    font-size : 2rem;
+    color: var(--color-purple);
 }
 
-.about-container h4 {
-    width: 85%;
-    color: var(--color-white)
-}
-
-.about-container .links {
-    margin-bottom: 1.75rem;
-    margin-top: 3.5rem;
-    font-size: 2rem;
-    display: flex;
-    justify-content: space-around;
-    width: 60%;
-    color: var(--color-white)
-}
-
-.about-container .social-links {
-    margin-bottom: 1.75rem;
-    margin-top: 3.5rem;
-    font-size: 2rem;
-    display: flex;
-    justify-content: space-around;
-    width: 60%;
-    color: var(--color-white)
-}
-
-.social-links svg:hover {
-    color: var(--color-charcoal-black);
-    cursor: pointer;
-}
-
-.links p:hover {
-    color: var(--color-yellow-gold);
-    cursor: pointer;
+.about-container p {
+    font-size : 1.25rem;
+    color: var(--color-purple);
+    margin-top: 1.25rem;
 }

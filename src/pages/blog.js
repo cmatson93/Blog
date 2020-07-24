@@ -14,16 +14,16 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <div className="about-container">
-          {posts.map(({ node }) => {
-            const title = node.frontmatter.title || node.fields.slug
-            return (
-              <Card 
-                node={node}
-                title={title}
-              />            
-            )
-          })}
+        <div className="blog-container">
+            {posts.map(({ node }) => {
+              const title = node.frontmatter.title || node.fields.slug
+              return (
+                <Card 
+                  node={node}
+                  title={title}
+                />            
+              )
+            })}
         </div>
       </Layout>
     )
