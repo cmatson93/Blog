@@ -7,7 +7,8 @@ const OneWheelRobot = () => (
         // width="200px"
         // viewBox="0 0 160 75" x="0px" y="0px"
 
-        width="400px" height="200px" viewBox="0 0 200 70"
+        width="100%" height="400px"
+        viewBox="-500 0 500 200"
     >
         <title>Robots - Outline - 041 - Bot</title>
         <g data-name="Bot 33" className="one-wheel">

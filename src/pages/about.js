@@ -17,12 +17,20 @@ class About extends React.Component {
                         <div className="about-heading-text">
                             <h1>About me</h1>
                             <p>
+                            {/* Frontend Engineer at SoftBank Robotics, where I spend my days building cool   */}
+                    {/* tools that help advance automation and the adoption of robotics in our everyday lives.  */}
                                 Passionate about all things related to building good technology products. I think robots are pretty cool, with a particular 
                                 bias towards Pepper, Nao and Whiz. Where my real skills come into play is when working with UI. I love the intersection the frontend 
                                 has with design, backend and end users. 
                             </p>
+                            <p>
+                                In my free time you can find me hanging out with my husband and dog Leia. We often spend our weekends playing tennis and trying out new returaunts. 
+                                Currently living in Oakland, California but I'm a true Midwest girl at heart.    
+                            </p>
                         </div>
-                        <OneWheelRobot />
+                        <div className="about-svg-container">
+                            {/* <OneWheelRobot /> */}
+                        </div>
                     </div>
                     <div className="home-svg-container">
                         <Triangle />

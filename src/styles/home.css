@@ -30,6 +30,22 @@
     margin-top: 2rem;
 }
 
+.home-content .social-icons {
+    color: var(--color-purple);
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.50rem;
+}
+
+.home-content .social-icons svg {
+    margin-right: 1rem;
+}
+
+.home-content .social-icons svg:hover {
+    color: var(--color-purple-hover);
+    cursor: pointer;
+}
+
 .home-svg-container {
     width: 100%;
     display: flex;

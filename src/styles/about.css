@@ -25,3 +25,22 @@
     color: var(--color-purple);
     margin-top: 1.25rem;
 }
+
+.about-svg-container {
+    margin-left: 1rem;
+}
+
+@media (max-width: 770px) {
+    .about-container .about-heading .about-heading-text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .about-container h1 {
+        font-size: 1.75rem;
+    }
+    .about-container p {
+        font-size: 1rem;
+    }
+}
