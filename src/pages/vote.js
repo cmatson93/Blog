@@ -35,7 +35,7 @@ const Vote = () => {
                 alt='Testing img'
                 style={{
                     height: '105px',
-                    widht: '180px',
+                    width: '180px',
                     top: '-25px',
                     left: '107px',
                 }}
