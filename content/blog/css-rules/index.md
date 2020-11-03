@@ -1,6 +1,7 @@
 ---
 title: CSS Rules? 
 date: "2019-07-28T23:12:03.284Z"
+description: A log of my expereinces and thoughts while converting and angularJS codebase to React.
 ---
 
 ## CSS has rules??? 

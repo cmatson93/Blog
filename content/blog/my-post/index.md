@@ -1,5 +1,5 @@
 ---
-title: AngularJs to ReactJS Rewrite
+title: AngularJs to ReactJS
 date: "2019-05-18"
 description: A log of my expereinces and thoughts while converting and angularJS codebase to React.
 ---

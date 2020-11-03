@@ -21,3 +21,6 @@
     box-sizing: border-box;
 }
 
+a {
+    color: var(--color-purple);
+}

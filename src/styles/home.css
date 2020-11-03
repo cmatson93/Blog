@@ -39,6 +39,7 @@
 
 .home-content .social-icons svg {
     margin-right: 1rem;
+    color: var(--color-purple);
 }
 
 .home-content .social-icons svg:hover {
