@@ -25,7 +25,7 @@ const Vote = () => {
             <i className='star top-star' id='top-three'></i>
             <i className='star top-star' id='top-four'></i>
         </div>
-        <div className='vote'>
+        <div className='vote    '>
             <h1 id="vote">Vote</h1>
         </div>
         <div className='bottom half-circle'>
