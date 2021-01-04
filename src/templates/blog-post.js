@@ -20,14 +20,14 @@ class BlogPostTemplate extends React.Component {
         />
         <div className="post-container">
           <h1
-            style={{color: `#5A5475`}}
+            style={{color: `#433f57`}}
           >{post.frontmatter.title}</h1>
           <p
             style={{
               ...scale(-1 / 5),
               display: `block`,
               marginBottom: rhythm(1),
-              color: `#5A5475`,
+              color: `#433f57`,
               marginTop: rhythm(0.5),
             }}
           >

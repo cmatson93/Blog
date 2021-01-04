@@ -17,9 +17,7 @@ class About extends React.Component {
                         <div className="about-heading-text">
                             <h1>About me</h1>
                             <p>
-                            {/* Frontend Engineer at SoftBank Robotics, where I spend my days building cool   */}
-                    {/* tools that help advance automation and the adoption of robotics in our everyday lives.  */}
-                                Passionate about all things related to building good technology products. I think robots are pretty cool, with a particular 
+                                Passionate about all things related to building good digital products. I think robots are pretty cool, with a particular 
                                 bias towards Pepper, Nao and Whiz. Where my real skills come into play is when working with UI. I love the intersection the frontend 
                                 has with design, backend and end users. 
                             </p>

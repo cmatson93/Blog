@@ -16,7 +16,7 @@ const Layout = ({ location, children }) => {
           // maxWidth: rhythm(24),
           padding: `${rhythm(.5)} ${rhythm(4 / 4)}`,
           // padding: `1% 10%`,
-          height: `100vh`,
+          minHeight: `100vh`,
         }}
         >
         
