@@ -3,40 +3,38 @@ import Nav from "./nav"
 
 import { rhythm, scale } from "../utils/typography"
 
-const Layout = ({ location, children }) => {
-
+const Layout = ({ location, children, footer }) => {
   const rootPath = `${__PATH_PREFIX__}/`
 
+  console.log(footer)
+  const FooterSVG = footer
 
-    return (
+  return (
+    <>
       <div
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
-          // maxWidth: rhythm(24),
-          padding: `${rhythm(.5)} ${rhythm(4 / 4)}`,
-          // padding: `1% 10%`,
-          minHeight: `100vh`,
+          padding: `${rhythm(0.5)} ${rhythm(4 / 4)}`,
+          minHeight: `${footer ? "calc(100vh - 170px)" : "100vh"}`,
         }}
-        >
-        
-        <header
-          style={{
-            // width: `100%`,
-            // display: `flex`,
-            // height: 
-
-          }}
-        >
+      >
+        <header>
           <Nav location={location} />
         </header>
+
         {children}
         {/* <footer>
           © Christina Ng{new Date().getFullYear()}
         </footer> */}
-      
       </div>
-    )
-};
+      {footer ? (
+        <footer style={{}}>
+          <FooterSVG />
+        </footer>
+      ) : null}
+    </>
+  )
+}
 
 export default Layout

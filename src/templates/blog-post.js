@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import "../styles/blog-post.css"
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
@@ -19,9 +18,7 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
         <div className="post-container">
-          <h1
-            style={{color: `#433f57`}}
-          >{post.frontmatter.title}</h1>
+          <h1 style={{ color: `#433f57` }}>{post.frontmatter.title}</h1>
           <p
             style={{
               ...scale(-1 / 5),

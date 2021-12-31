@@ -1,8 +1,7 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import { rhythm } from "../utils/typography"
 import Card from "../components/card"
 import FlexGrid from "../components/FlexGrid"
 
@@ -14,19 +13,12 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <h3 className="blog-page-title">
-          Posts
-        </h3>
+        <h3 className="blog-page-title">Posts</h3>
         <div className="blog-container">
-            {posts.map(({ node }) => {
-              const title = node.frontmatter.title || node.fields.slug
-              return (
-                <Card 
-                  node={node}
-                  title={title}
-                />            
-              )
-            })}
+          {posts.map(({ node }) => {
+            const title = node.frontmatter.title || node.fields.slug
+            return <Card node={node} title={title} />
+          })}
         </div>
       </Layout>
     )

@@ -1,11 +1,9 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import "../styles/home.css"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import OneWheelRobot from "../svgs/OneWheelRobot"
 import Tilt from "../svgs/Tilt"
-import Icon from "../components/icon"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faLinkedin,
@@ -19,7 +17,7 @@ class BlogIndex extends React.Component {
     const siteTitle = data.site.siteMetadata.title
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={this.props.location} title={siteTitle} footer={Tilt}>
         <SEO title="Christina Ng" />
         <div className="home-content">
           <div className="home-heading">
@@ -52,10 +50,10 @@ class BlogIndex extends React.Component {
               </div>
             </div>
           </div>
-          <div className="home-svg-container">
-            {/* <OneWheelRobot /> */}
+          {/* <OneWheelRobot /> */}
+          {/* <div className="home-svg-container">
             <Tilt />
-          </div>
+          </div> */}
         </div>
       </Layout>
     )
