@@ -37,7 +37,7 @@
     "gatsby-transformer-sharp": "^2.1.19",
     "grommet": "^2.15.2",
     "polished": "^4.0.3",
-    "prismjs": "^1.16.0",
+    "prismjs": "^1.27.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6",
